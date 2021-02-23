@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+body{
+	background: url("../img/portada.jpg");
+	background-position: center;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form{
+	max-width: 400px;
+	background: #151515;
+	box-shadow: 15px 15px 4px black;
+}
+
+h1{
+	color: goldenrod;
+	text-align: center;
+}
+
+.container-form{
+	padding: 30px 70px;
+}
+.content-item{
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	margin: 25px 0;
+	padding: 7px 0;
+	border: 1px solid #a8a8a8;
+	border-radius: 10px 10px 10px 10px;
+}
+.content-item i{
+	width: 15px;
+	margin: 0 10px;
+	color: #F0B751;
+}
+
+input[type="text"], 
+	 [type="password"],
+	 [type="number"],
+	 [type="email"]{
+		width: 100%;
+		font-size: 17px;
+		background: none;
+		border: none;
+		outline: none;
+		color: #a8a8a8;
+}
+
+#contentSubmit{
+	display: flex;
+	justify-content: center;
+}
+
+button{
+	width: 100px;
+	background: goldenrod;
+	border: 1px solid goldenrod;
+	outline: none;
+	padding: 7px;
+	font-size: 15px;
+	color: #f7f7f7;
+	border-radius: 10px 10px 10px 10px;
+}
+button:hover{
+	background: none;
+	border: 1px solid #a8a8a8;
+	color: goldenrod;
+	transition: background, 0.6s;
+}
+
+p{
+	margin-top: 17px;
+	color: #a8a8a8;
+}
+
+a{
+	color: goldenrod;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
